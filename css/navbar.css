@@ -130,10 +130,10 @@ text-transform: capitalize;
     padding: 10px;
     background-color: #dc3545;
 }
-.loginbtn div a{
-    color:#fff;
+.loginbtn a{
+   
     text-decoration:none;
-    font-size: 2vw;
+   
 }
 
 
