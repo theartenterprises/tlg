@@ -32,6 +32,10 @@
     width:40.32258064516129vw ;
     height: 26.895161290322584vw;
 }
+.edit li img:hover{
+   opacity: 0.8;
+ 
+}
 
 .foot{
     /* border: 2px solid black; */
