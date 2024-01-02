@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+header{
+    background: url('../hbg3.jpg') no-repeat center center/cover;
+
+}
+/* header::before{
+    background: url('../hbg3.jpg') no-repeat center center cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    border: 2px solid lime;
+    
+} */
+#navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* height: 100px; */
+    align-content: center;
+/* border: 2px solid green; */
+
+}
+#logo{
+   
+/* border: 2px solid brown; */
+    text-transform:uppercase;
+    /* background-color: white; */
+    text-align: center;
+   
+    font-family: 'Rubik Lines', serif;
+
+}
+#logo a{
+    font-size: 3.5vw;
+
+    color: orangered;
+    text-decoration: none;
+}
+
+.list{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.bi-list-columns::before{
+    font-size: 8vw;
+  
+    
+}
+/* [type=button]:not(:disabled),
+ [type=reset]:not(:disabled), 
+ [type=submit]:not(:disabled), 
+ button:not(:disabled){
+    background: none;
+    border: none;
+    padding: 0px;
+
+
+} */
+button.btn.btn-primary{
+    background: none;
+    border: none;
+    padding: 0px;
+}
+div.offcanvas-body li{
+    list-style: none;
+}
+div.offcanvas-body a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #dc3545;
+}
+.links{
+    font-size: 2vw;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+/* border: 2px solid brown; */
+
+}
+
+.links li{
+    list-style: none;
+
+
+}
+.links li a{
+    text-decoration: none;
+    color:chocolate;
+    /* border: 2px solid brown; */
+    font-family: 'Rubik Maps', serif;
+text-transform: capitalize;
+
+}
+.links li a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+
+
+}
+#twolink{
+   
+    justify-content: right;
+    font-size: 2.5vw;
+    
+
+}
+#twolink li{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+#twolink li a{
+    
+    font-family: 'Rubik Broken Fax', serif;
+color: crimson;
+
+}
+#twolink li a:hover{
+    color: magenta;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+
+}
+
+.loginbtn{
+    color: #fff;
+    font-size: 5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 2vw;
+padding-right: 10px;
+text-transform: capitalize;
+
+
+}
+
+.loginbtn a{
+    color: #fff;
+    text-decoration: none;
+}
+.loginbtn div{
+    border: 2px solid #dc3545;
+    border-radius:4px;
+    padding: 10px;
+    background-color: #dc3545;
+}
+
+
+.carousel{
+    width: 100%;
+    
+    background: url('../hbg3.jpg') no-repeat center center/cover;
+
+}
+
+
+.w-100{
+    /* width: 300px; */
+    height:60vw ;
+    opacity: 0.7;
+    border-radius: 16px;
+    
+
+    
+}
+
+
+/* reponsiveness */
+
+/* smartphone */
+@media only screen and (max-width:400px){
+#onelink{
+    display: none;
+}
+#twolink{
+    display: none;
+}
+#logo a {
+    font-size: 5.5vw;
+   
+}
+.loginbtn{
+    font-size: 3vw;
+}
+.list{
+    font-size: 7vw;
+
+}
+.w-100{
+    height: 60vw;
+}
+
+}
+
+@media (min-width:400px) and (max-width:600px){
+    #onelink{
+        display: none;
+    }
+    #twolink{
+        display: none;
+    }
+    #logo a {
+        font-size: 5.5vw;
+       
+    }
+    .loginbtn{
+        font-size: 3vw;
+    }
+    .list{
+        font-size: 7vw;
+    
+    }
+    .w-100{
+        height: 60vw;
+    }
+}
+
+@media (min-width:600px) and (max-width:768px){
+    #onelink{
+        display: none;
+    }
+    #twolink{
+        display: none;
+    }
+    #logo a {
+        font-size: 5.5vw;
+       
+    }
+    .loginbtn{
+        font-size: 3vw;
+    }
+    .list{
+        font-size: 7vw;
+    
+    }
+    .w-100{
+        height: 60vw;
+    }
+}
+
+/* desktop and laptop */
+
+@media (min-width:768px) and (max-width:992px){
+    .list{
+        display: none;
+    
+    }
+    .loginbtn{
+        display: none;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .list{
+        display: none;
+    
+    }
+    .loginbtn{
+        display: none;
+    }
+}
+@media only screen and (min-width:1200px){
+    .list{
+        display: none;
+    
+    }
+    .loginbtn{
+        display: none;
+    }
+}
+
